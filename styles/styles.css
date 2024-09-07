@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
+    overflow-x: hidden;
 }
 
 ul {
@@ -66,7 +67,7 @@ main {
 
 .head>h1,
 .head>img{
-    width:49%;
+    max-width:49%;
     text-align:center;
     border-radius: 1rem;
 }
@@ -102,5 +103,5 @@ footer {
 }
 
 footer>p{
-    padding: 0 0 0.3rem 0;
+    padding: 0 0 0.1rem 0;
 }
