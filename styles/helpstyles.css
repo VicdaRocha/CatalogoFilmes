@@ -36,3 +36,7 @@ body.help a{
     margin: 0.3rem 4rem;
     color:rgb(180,220,180);
 }
+
+div.template h4 {
+    text-align:start;
+}
