@@ -1,0 +1,38 @@
+body.help {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+body.help h1,
+body.help h2,
+body.help h3,
+body.help h4{
+    text-align: center;
+    color:rgb(220,220,200);
+}
+
+body.help h1{
+    font-size: 4rem;
+    margin: 2rem 1rem;
+}
+body.help h3{
+    font-size: 2rem;
+    margin: 1.5rem 2rem;
+}
+body.help h4{
+    font-size: 1.2rem;
+    margin: 1rem 3rem;
+}
+
+body.help p {
+    margin: 0.3rem 4rem;
+    color:rgb(220,220,180);
+}
+
+body.help a{
+    text-decoration: none;
+    margin: 0.3rem 4rem;
+    color:rgb(180,220,180);
+}

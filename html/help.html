@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/helpstyles.css">
+</head>
+<body class="help"> 
+
+    <h1>Caminho do git</h1>
+
+    <h3>Repositório:</h3>
+    <a href="https://github.com/VicdaRocha/CatalogoFilmes.git"><strong>https://github.com/VicdaRocha/CatalogoFilmes.git</strong></a>
+    
+    <h3>Fork</h3>
+    <p>No link acima, faça um fork do repositório (area superior direita).</p>
+    <p>Isso criará uma cópia do repositório na sua conta do github.</p>
+    
+    <h3>Clone o seu repositorio</h3>
+    
+    <p>Depois de escolher um local para receber o repositório, abra o terminal e navegue até a pasta: </p>
+    <p>- <strong>cd  caminho da pasta </strong></p>
+    <p>- <strong>git clone https://github.com/meu-usuario/CatalogoFilmes.git</strong></p>
+    <p>- <strong>cd CatalogoFilmes</strong></p>
+    
+    <h4>Trazer branches do repositório remoto</h4>
+    <p>- <strong>git fetch origin</strong></p>
+    
+    <h4>Listar branches do repositório remoto</h4>
+    <p>- <strong>git branch -r</strong></p>
+    
+    <h4>Criar uma branch local a partir da sua branch remota</h4>
+    <p>- <strong>git checkout -b nome-da-branch-local origin/NomeSobrenome</branch-name></strong></p>
+    
+    <h3>Quando estiver pronto:</h3>
+    <p>- <strong>git status</strong> (lista arquivos alterados na branch)</p>
+    
+    <h4>Preparar mudanças para commit</h4>
+    <p>- <strong>git add .</strong> (adiciona todas as mudanças à area de stage)</p>
+    <p>Caso não queira adicionar todas as mudanças, isso pode ser controlado de forma simples na aba de controle de versionamento do vs code, utilizando os botões com sinal de adição.</p>
+    
+    <h4>Commit</h4>
+    <p>- <strong>git commit -m "digite uma mensagem para o commit(tem que estar entre aspas)"</strong></p>
+    <p>Na aba de controle de versionamento: commit/confirmar</p>
+    
+    <h3>Publique sua branch</h3>
+    
+    <h4>Cheque se sua branch está conectada à branch remota certa.</h4>
+    <p>- <strong>git branch -vv</strong></p>
+    
+    <h4>Se o resultado for seu NomeSobrenome:</h4>
+    <p>- <strong>git push</strong></p>
+    <p>Na aba de controle de versionamento: publish/publicar branch</p>
+
+</body>
+</html>
