@@ -1,0 +1,24 @@
+body.home > main.container {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('../images/netflix-brand-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.container h1{
+    padding: 1rem;
+    font-size: 6rem;
+    text-align: center;
+    color: rgb(190,190,190);
+    background-color: rgba(40,40,40,0.8);
+    border: 9px dashed rgba(40,40,40,0.8);
+    border-radius: 1rem;
+}
