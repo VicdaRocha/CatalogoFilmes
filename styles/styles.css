@@ -1,108 +1,139 @@
 :root {
-    --degrade-cinza: linear-gradient(155deg,
-            rgb(10, 10, 10) 0%,
-            rgb(50, 50, 50) 90%,
-            rgb(90, 90, 90) 100%);
+  --degrade-cinza: linear-gradient(
+    155deg,
+    rgb(10, 10, 10) 0%,
+    rgb(50, 50, 50) 90%,
+    rgb(90, 90, 90) 100%
+  );
 
-    --degrade-escuro: linear-gradient(to top,
-            rgb(0, 0, 0) 0%,
-            rgb(30, 30, 30) 90%,
-            rgb(40, 40, 40) 100%);
+  --degrade-escuro: linear-gradient(
+    to top,
+    rgb(0, 0, 0) 0%,
+    rgb(30, 30, 30) 90%,
+    rgb(40, 40, 40) 100%
+  );
 }
 
 body {
-    background-color: black;
-    background: var(--degrade-escuro);
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    overflow-x: hidden;
+  background-color: black;
+  background: var(--degrade-escuro);
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  overflow-x: hidden;
 }
 
 ul {
-    height: 100%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* HEADER */
 header {
-    height: 6vh;
-    min-height: 3.5rem;
-    background: var(--degrade-cinza);
-    border-bottom: 0.1rem solid gold;
+  height: 6vh;
+  min-height: 3.5rem;
+  background: var(--degrade-cinza);
+  border-bottom: 0.1rem solid gold;
 }
 
-header>ul {
-    height: 100%;
+header > ul {
+  height: 100%;
 }
 
 header a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .active {
-    border-bottom: 0.2rem solid white;
+  border-bottom: 0.2rem solid white;
 }
 
 /* CONTEUDO */
 main {
-    padding: 1rem;
-    flex-grow: 1;
-    height: auto;
-    min-height: 85vh;
+  padding: 1rem;
+  flex-grow: 1;
+  height: auto;
+  min-height: 85vh;
 }
 
 .head {
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.head>h1,
-.head>img{
-    max-width:49%;
-    text-align:center;
-    border-radius: 1rem;
+.head > h1,
+.head > img {
+  max-width: 49%;
+  text-align: center;
+  border-radius: 1rem;
 }
 
 main ul {
-    flex-direction: column;
+  flex-direction: column;
 }
 
-.info-elenco{
-    display: flex;
+.info-elenco {
+  display: flex;
 }
 
-.info-elenco>div{
-    padding: 1rem;
+.info-elenco > div {
+  padding: 1rem 4rem;
 }
 
-.info{
-    width: 50%;
+.info-elenco h2 {
+  text-align: center;
+}
+
+.info {
+  width: 50%;
 }
 
 .info > p {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
-.elenco{
-    width: 50%;
+.elenco {
+  width: 50%;
+}
+
+.elenco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elenco th,
+.elenco td {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.elenco thead tr th:nth-child(1),
+.elenco tbody tr td:nth-child(1) {
+  text-align: end;
+}
+
+.elenco thead tr th:nth-child(2),
+.elenco tbody tr td:nth-child(2) {
+  text-align: start;
 }
 
 /* FOOTER */
 footer {
-    height: 5vh;
-    text-align: center;
-    margin: 2rem 0 0 0;
+  height: 5vh;
+  text-align: center;
+  margin: 2rem 0 0 0;
 }
 
-footer>p{
-    padding: 0 0 0.1rem 0;
+footer > p {
+  padding: 0 0 0.1rem 0;
 }
