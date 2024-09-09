@@ -32,6 +32,7 @@ ul {
 /* HEADER */
 header {
     height: 6vh;
+    min-height: 3.5rem;
     background: var(--degrade-cinza);
     border-bottom: 0.1rem solid gold;
 }
@@ -99,7 +100,7 @@ main ul {
 footer {
     height: 5vh;
     text-align: center;
-    margin: 4rem 0 0 0;
+    margin: 2rem 0 0 0;
 }
 
 footer>p{
