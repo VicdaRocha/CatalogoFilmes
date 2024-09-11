@@ -1,0 +1,51 @@
+@media (max-width: 1000px) {
+  header {
+    height: 40vh;
+    min-height: 3.5rem;
+    background: var(--degrade-cinza);
+    border-bottom: 0.1rem solid gold;
+  }
+
+  nav {
+    height: 100%;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1,
+  h2,
+  h3,
+  .info p {
+    text-align: center;
+  }
+
+  .info p {
+    margin-left: 0;
+  }
+
+  .elenco thead tr th:nth-child(1) > h3 {
+    text-align: end;
+  }
+
+  .elenco thead tr th:nth-child(2) > h3 {
+    text-align: start;
+  }
+
+  .head,
+  .info-elenco {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info,
+  .elenco {
+    width: 100%;
+  }
+}
