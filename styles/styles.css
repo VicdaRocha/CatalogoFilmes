@@ -163,3 +163,23 @@ footer > p {
   text-align: center;
   margin-bottom: 5px;
 }
+
+#anterior,
+#proximo {
+  width: 40px;
+  height: 40px;
+  background-color: #f0eeef;
+  color: #333;
+  font-size: 18px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imagem {
+  width: 100px;
+  height: auto;
+}
